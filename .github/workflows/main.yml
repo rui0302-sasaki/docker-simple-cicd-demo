@@ -51,7 +51,8 @@ jobs:
     name: API Container - Test and Build
     runs-on: ubuntu-20.04
     timeout-minutes: 10
-    defaults:run:
+    defaults:
+      run:
         working-directory: api
 
     steps:
@@ -120,7 +121,7 @@ jobs:
           service: ${{ env.ECS_SERVICE }}
           cluster: ${{ env.ECS_CLUSTER }}
           wait-for-service-stability: true
-          
+
 
 
 
