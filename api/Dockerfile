@@ -1,4 +1,4 @@
-FROM gradle:7 AS base
+FROM eclipse-temurin:17 AS production
 CMD ["bash"]
 
 # build
