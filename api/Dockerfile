@@ -1,13 +1,8 @@
-FROM eclipse-temurin:17 AS production
-CMD ["bash"]
-
-# build
-FROM base AS build
-COPY . /workspace
+FROM eclipse-temurin:17 AS build
 WORKDIR /workspace
-RUN ./gradlew build
+COPY . .
+RUN ./gradlew bootJar
 
-# production
 FROM eclipse-temurin:17 AS production
 COPY --from=build /workspace/build/libs/api-0.0.1-SNAPSHOT.jar ./api.jar
 CMD [ "java", "-jar", "api.jar" ]
