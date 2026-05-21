@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "rui0302-sasaki/docker-simple-cicd-demo",
+  "pipelineDirectory": "docker-simple-cicd-demo",
+  "workspaceDirectory": "docker-simple-cicd-demo\\docker-simple-cicd-demo",
+  "repositories": {
+    "rui0302-sasaki/docker-simple-cicd-demo": {
+      "repositoryPath": "docker-simple-cicd-demo\\docker-simple-cicd-demo",
+      "lastRunOn": "05/21/2026 10:36:13 +09:00"
+    }
+  },
+  "lastRunOn": "05/21/2026 10:36:13 +09:00"
+}
