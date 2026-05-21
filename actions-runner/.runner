@@ -1,11 +1,11 @@
 ﻿{
-  "agentId": 21,
+  "agentId": 22,
   "agentName": "DESKTOP-NM4ID62",
   "poolId": 1,
   "poolName": "Default",
   "serverUrl": "https://pipelinesghubeus9.actions.githubusercontent.com/rUBOJHrlkELmj5pV8YbuH7McXaNIRpV3mhlooBPd2S3aXD9CY7/",
   "gitHubUrl": "https://github.com/rui0302-sasaki/docker-simple-cicd-demo",
-  "workFolder": "_work",
+  "workFolder": "C:\\Users\\matisse\\Desktop\\actions-work",
   "useV2Flow": true,
   "serverUrlV2": "https://broker.actions.githubusercontent.com/"
 }

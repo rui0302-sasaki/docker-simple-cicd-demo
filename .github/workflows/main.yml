@@ -16,7 +16,7 @@ permissions:
 jobs:
   web-test-build-image:
     name: Web Container - Test and Build
-    runs-on: self-hosted
+    runs-on: ubuntu-20.04
     timeout-minutes: 10
     defaults:
       run:
@@ -47,6 +47,7 @@ jobs:
         run: |
           docker image tag temp_web_image_name:latest $ECR_REGISTRY/$ECR_REPOSITORY:latest
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
+
   api-test-build-image:
     name: API Container - Test and Build
     runs-on: ubuntu-20.04
@@ -61,6 +62,7 @@ jobs:
       - name: Build an Image and Run Tests
         run: |
           docker image build --target production -t temp_api_image_name:latest .
+
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
@@ -79,6 +81,7 @@ jobs:
         run: |
           docker image tag temp_api_image_name:latest $ECR_REGISTRY/$ECR_REPOSITORY:latest
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
+
   deploy:
     name: Deploy
     runs-on: ubuntu-20.04
@@ -98,6 +101,7 @@ jobs:
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
+
       - name: Fill in the new image ID in the Amazon ECS task definition for web
         id: render-web-task-def
         uses: aws-actions/amazon-ecs-render-task-definition@v1
@@ -121,28 +125,3 @@ jobs:
           service: ${{ env.ECS_SERVICE }}
           cluster: ${{ env.ECS_CLUSTER }}
           wait-for-service-stability: true
-
-
-
-
-
-  
-# Web Container Build/Test
-## Get Source
-## Build/Test
-## Docker Image Build
-## Login AWS
-## Push image to ECR
-
-# API Container Build/Test
-## Get Source
-## Build/Test
-## Docker Image Build
-## Login AWS
-## Push image to ECR
-
-# Deploy
-## Get Source
-## Login AWS
-## Edit Task Definition
-## Deploy
