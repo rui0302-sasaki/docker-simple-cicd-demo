@@ -1,0 +1,4043 @@
+[2026-05-21 06:29:51Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2026-05-21 06:29:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:51Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials'
+[2026-05-21 06:29:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:51Z INFO HostContext] Well known config file 'Runner': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.runner'
+[2026-05-21 06:29:51Z INFO Worker] Version: 2.334.0
+[2026-05-21 06:29:51Z INFO Worker] Commit: f1995ede5d885c997d13d8eca5467c4ce97fe69c
+[2026-05-21 06:29:51Z INFO Worker] Culture: ja-JP
+[2026-05-21 06:29:51Z INFO Worker] UI Culture: ja-JP
+[2026-05-21 06:29:51Z INFO Worker] Waiting to receive the job message from the channel.
+[2026-05-21 06:29:51Z INFO ProcessChannel] Receiving message of length 24629, with hash 'ca64e727715d1cfff7b79b8cf61767bba6675b3e2c63d4e7a77ce7e0d64dba11'
+[2026-05-21 06:29:51Z INFO Worker] Message received.
+[2026-05-21 06:29:52Z INFO Worker] Job message:
+ {
+  "environmentVariables": [
+    {
+      "type": 2,
+      "file": 1,
+      "line": 8,
+      "col": 3,
+      "map": [
+        {
+          "key": {
+            "type": 0,
+            "file": 1,
+            "line": 8,
+            "col": 3,
+            "lit": "AWS_REGION"
+          },
+          "value": {
+            "type": 0,
+            "file": 1,
+            "line": 8,
+            "col": 15,
+            "lit": "ap-northeast-1"
+          }
+        },
+        {
+          "key": {
+            "type": 0,
+            "file": 1,
+            "line": 9,
+            "col": 3,
+            "lit": "ECS_SERVICE"
+          },
+          "value": {
+            "type": 0,
+            "file": 1,
+            "line": 9,
+            "col": 16,
+            "lit": "simple-cicd-def-rs-service"
+          }
+        },
+        {
+          "key": {
+            "type": 0,
+            "file": 1,
+            "line": 10,
+            "col": 3,
+            "lit": "ECS_CLUSTER"
+          },
+          "value": {
+            "type": 0,
+            "file": 1,
+            "line": 10,
+            "col": 16,
+            "lit": "simple-cicd-cluster-rs"
+          }
+        },
+        {
+          "key": {
+            "type": 0,
+            "file": 1,
+            "line": 11,
+            "col": 3,
+            "lit": "ECS_TASK_DEFINITION"
+          },
+          "value": {
+            "type": 0,
+            "file": 1,
+            "line": 11,
+            "col": 24,
+            "lit": ".aws/task-definition.json"
+          }
+        }
+      ]
+    }
+  ],
+  "defaults": [
+    {
+      "type": 2,
+      "file": 1,
+      "line": 56,
+      "col": 7,
+      "map": [
+        {
+          "key": {
+            "type": 0,
+            "file": 1,
+            "line": 56,
+            "col": 7,
+            "lit": "run"
+          },
+          "value": {
+            "type": 2,
+            "file": 1,
+            "line": 57,
+            "col": 9,
+            "map": [
+              {
+                "key": {
+                  "type": 0,
+                  "file": 1,
+                  "line": 57,
+                  "col": 9,
+                  "lit": "working-directory"
+                },
+                "value": {
+                  "type": 0,
+                  "file": 1,
+                  "line": 57,
+                  "col": 28,
+                  "lit": "api"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "fileTable": [
+    ".github/workflows/main.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v3",
+        "repositoryType": "GitHub"
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "5bc8a180-4305-4a89-9087-b07d0db20c83",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 62,
+        "col": 15,
+        "lit": "Build an Image and Run Tests"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 63,
+              "col": 14,
+              "lit": "docker image build --target production -t temp_api_image_name:latest .\n"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "af3ae4dc-c316-4976-992d-53fcd312f3b7",
+      "name": "__run"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "aws-actions/configure-aws-credentials",
+        "ref": "v1",
+        "repositoryType": "GitHub"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 66,
+        "col": 15,
+        "lit": "Configure AWS credentials"
+      },
+      "contextName": "__aws-actions_configure-aws-credentials",
+      "inputs": {
+        "type": 2,
+        "file": 1,
+        "line": 69,
+        "col": 11,
+        "map": [
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 69,
+              "col": 11,
+              "lit": "aws-access-key-id"
+            },
+            "value": {
+              "type": 3,
+              "file": 1,
+              "line": 69,
+              "col": 30,
+              "expr": "secrets.AWS_ACCESS_KEY_ID"
+            }
+          },
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 70,
+              "col": 11,
+              "lit": "aws-secret-access-key"
+            },
+            "value": {
+              "type": 3,
+              "file": 1,
+              "line": 70,
+              "col": 34,
+              "expr": "secrets.AWS_SECRET_ACCESS_KEY"
+            }
+          },
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 71,
+              "col": 11,
+              "lit": "aws-region"
+            },
+            "value": {
+              "type": 3,
+              "file": 1,
+              "line": 71,
+              "col": 23,
+              "expr": "env.AWS_REGION"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "bdcc0604-6d19-446a-b73b-9cc64fba1c0f",
+      "name": "__aws-actions_configure-aws-credentials"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "aws-actions/amazon-ecr-login",
+        "ref": "v1",
+        "repositoryType": "GitHub"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 73,
+        "col": 15,
+        "lit": "Login to Amazon ECR"
+      },
+      "contextName": "login-ecr",
+      "condition": "success()",
+      "id": "b650c5d3-c63a-45c7-9b1c-bfbe937fca71",
+      "name": "login-ecr"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 77,
+        "col": 15,
+        "lit": "Push the image to Amazon ECR"
+      },
+      "contextName": "__run_2",
+      "environment": {
+        "type": 2,
+        "file": 1,
+        "line": 79,
+        "col": 11,
+        "map": [
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 79,
+              "col": 11,
+              "lit": "ECR_REGISTRY"
+            },
+            "value": {
+              "type": 3,
+              "file": 1,
+              "line": 79,
+              "col": 25,
+              "expr": "steps.login-ecr.outputs.registry"
+            }
+          },
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 80,
+              "col": 11,
+              "lit": "ECR_REPOSITORY"
+            },
+            "value": {
+              "type": 3,
+              "file": 1,
+              "line": 80,
+              "col": 27,
+              "expr": "secrets.AWS_ECR_API_SERVER_REPOSITORY"
+            }
+          }
+        ]
+      },
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 81,
+              "col": 14,
+              "lit": "docker image tag temp_api_image_name:latest $ECR_REGISTRY/$ECR_REPOSITORY:latest\ndocker image push $ECR_REGISTRY/$ECR_REPOSITORY:latest\n"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "a3982666-5703-4424-8653-342b56fe325b",
+      "name": "__run_2"
+    }
+  ],
+  "variables": {
+    "AWS_ACCESS_KEY_ID": {
+      "value": "***\n",
+      "isSecret": true
+    },
+    "AWS_ECR_API_SERVER_REPOSITORY": {
+      "value": "***",
+      "isSecret": true
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "value": "***",
+      "isSecret": true
+    },
+    "Actions.EnableHttpRedirects": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode16Action": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "DistributedTask.DetailUntarFailure": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnableJobServerQueueTelemetry": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode16": {
+      "value": "true"
+    },
+    "DistributedTask.ForceGithubJavascriptActionsToNode20": {
+      "value": "true"
+    },
+    "DistributedTask.LogTemplateErrorsAsDebugMessages": {
+      "value": "true"
+    },
+    "DistributedTask.MarkJobAsFailedOnWorkerCrash": {
+      "value": "true"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.UseActionArchiveCache": {
+      "value": "true"
+    },
+    "DistributedTask.UseWhich2": {
+      "value": "true"
+    },
+    "RunService.FixEmbeddedIssues": {
+      "value": "true"
+    },
+    "actions.runner.requirenode24": {
+      "value": "false"
+    },
+    "actions.runner.usenode24bydefault": {
+      "value": "false"
+    },
+    "actions.runner.warnonnode20": {
+      "value": "true"
+    },
+    "actions_add_check_run_id_to_job_context": {
+      "value": "true"
+    },
+    "actions_batch_action_resolution": {
+      "value": "false"
+    },
+    "actions_container_action_runner_temp": {
+      "value": "true"
+    },
+    "actions_display_helpful_actions_download_errors": {
+      "value": "true"
+    },
+    "actions_runner_compare_workflow_parser": {
+      "value": "false"
+    },
+    "actions_runner_deprecate_linux_arm32": {
+      "value": "false"
+    },
+    "actions_runner_emit_composite_markers": {
+      "value": "false"
+    },
+    "actions_runner_kill_linux_arm32": {
+      "value": "false"
+    },
+    "actions_runner_node20_removal_date": {
+      "value": ""
+    },
+    "actions_runner_node24_default_date": {
+      "value": ""
+    },
+    "actions_service_container_command": {
+      "value": "true"
+    },
+    "actions_set_orchestration_id_env_for_actions": {
+      "value": "true"
+    },
+    "actions_skip_retry_complete_job_upon_known_errors": {
+      "value": "true"
+    },
+    "actions_snapshot_preflight_hosted_runner_check": {
+      "value": "false"
+    },
+    "actions_snapshot_preflight_image_gen_pool_check": {
+      "value": "false"
+    },
+    "actions_use_bearer_token_for_codeload": {
+      "value": "false"
+    },
+    "actions_uses_cache_service_v2": {
+      "value": "true"
+    },
+    "github_token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.from_run_service": {
+      "value": "true"
+    },
+    "system.github.job": {
+      "value": "api-test-build-image"
+    },
+    "system.github.launch_endpoint": {
+      "value": "https://launch.actions.githubusercontent.com"
+    },
+    "system.github.results_endpoint": {
+      "value": "https://results-receiver.actions.githubusercontent.com/"
+    },
+    "system.github.results_upload_with_sdk": {
+      "value": "true"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\"}"
+    },
+    "system.orchestrationId": {
+      "value": "3dfe47ce-ea7d-4848-9a30-b7b76a7cc27a.api-test-build-image.__default"
+    },
+    "system.phaseDisplayName": {
+      "value": "API Container - Test and Build"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "RunnerJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "actions",
+    "version": 0,
+    "planId": "3dfe47ce-ea7d-4848-9a30-b7b76a7cc27a",
+    "planGroup": null,
+    "artifactUri": null,
+    "artifactLocation": null,
+    "definition": null,
+    "owner": null
+  },
+  "timeline": {
+    "id": "3dfe47ce-ea7d-4848-9a30-b7b76a7cc27a",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "88586c24-fc68-5739-be84-f4473f642188",
+  "jobDisplayName": "API Container - Test and Build",
+  "jobName": "__default",
+  "requestId": 0,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "",
+          "ServerName": "",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/rUBOJHrlkELmj5pV8YbuH7McXaNIRpV3mhlooBPd2S3aXD9CY7/",
+          "FeedStreamUrl": "wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock",
+          "ResultsServiceUrl": "https://results-receiver.actions.githubusercontent.com/",
+          "PipelinesServiceUrl": "https://pipelinesghubeus9.actions.githubusercontent.com/rUBOJHrlkELmj5pV8YbuH7McXaNIRpV3mhlooBPd2S3aXD9CY7/",
+          "GenerateIdTokenUrl": "",
+          "ConnectivityChecks": "[\"https://broker.actions.githubusercontent.com/health\",\"https://token.actions.githubusercontent.com/ready\",\"https://run.actions.githubusercontent.com/health\"]"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://run-actions-2-azure-eastus.actions.githubusercontent.com/162/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": "***"
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/main"
+        },
+        {
+          "k": "sha",
+          "v": "64b02af11e0677a81c83d157211cd1e145d9a7c5"
+        },
+        {
+          "k": "repository",
+          "v": "rui0302-sasaki/docker-simple-cicd-demo"
+        },
+        {
+          "k": "repository_owner",
+          "v": "rui0302-sasaki"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "282755886"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/rui0302-sasaki/docker-simple-cicd-demo.git"
+        },
+        {
+          "k": "run_id",
+          "v": "26209474794"
+        },
+        {
+          "k": "run_number",
+          "v": "23"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "actor_id",
+          "v": "282755886"
+        },
+        {
+          "k": "actor",
+          "v": "rui0302-sasaki"
+        },
+        {
+          "k": "workflow",
+          "v": "Deploy Simple CI/CD"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "main"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "64b02af11e0677a81c83d157211cd1e145d9a7c5"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "8c04bd7bef3e03ca0f2f28fef12b801fef1e29a7"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "r_sasaki@matisse.co.jp"
+                              },
+                              {
+                                "k": "name",
+                                "v": "rui0302-sasaki"
+                              },
+                              {
+                                "k": "username",
+                                "v": "rui0302-sasaki"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "r_sasaki@matisse.co.jp"
+                              },
+                              {
+                                "k": "name",
+                                "v": "rui0302-sasaki"
+                              },
+                              {
+                                "k": "username",
+                                "v": "rui0302-sasaki"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "64b02af11e0677a81c83d157211cd1e145d9a7c5"
+                        },
+                        {
+                          "k": "message",
+                          "v": "fix: sync docker syntax and verified secrets structure"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2026-05-21T15:28:37+09:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "a7339ddc392342c445e1f081cd40b67cc7671fe7"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/rui0302-sasaki/docker-simple-cicd-demo/commit/64b02af11e0677a81c83d157211cd1e145d9a7c5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/rui0302-sasaki/docker-simple-cicd-demo/compare/8c04bd7bef3e...64b02af11e06"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "r_sasaki@matisse.co.jp"
+                          },
+                          {
+                            "k": "name",
+                            "v": "rui0302-sasaki"
+                          },
+                          {
+                            "k": "username",
+                            "v": "rui0302-sasaki"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "r_sasaki@matisse.co.jp"
+                          },
+                          {
+                            "k": "name",
+                            "v": "rui0302-sasaki"
+                          },
+                          {
+                            "k": "username",
+                            "v": "rui0302-sasaki"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "64b02af11e0677a81c83d157211cd1e145d9a7c5"
+                    },
+                    {
+                      "k": "message",
+                      "v": "fix: sync docker syntax and verified secrets structure"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2026-05-21T15:28:37+09:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "a7339ddc392342c445e1f081cd40b67cc7671fe7"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/rui0302-sasaki/docker-simple-cicd-demo/commit/64b02af11e0677a81c83d157211cd1e145d9a7c5"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "r_sasaki@matisse.co.jp"
+                    },
+                    {
+                      "k": "name",
+                      "v": "rui0302-sasaki"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/main"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/rui0302-sasaki/docker-simple-cicd-demo.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1779253586.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "rui0302-sasaki/docker-simple-cicd-demo"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/rui0302-sasaki/docker-simple-cicd-demo.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pull_requests",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": false
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/rui0302-sasaki/docker-simple-cicd-demo"
+                    },
+                    {
+                      "k": "id",
+                      "v": 1244244829.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "JavaScript"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "docker-simple-cicd-demo"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOSimrXQ"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/282755886?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "r_sasaki@matisse.co.jp"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/rui0302-sasaki/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/rui0302-sasaki/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/rui0302-sasaki/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/rui0302-sasaki/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/rui0302-sasaki"
+                          },
+                          {
+                            "k": "id",
+                            "v": 282755886.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "rui0302-sasaki"
+                          },
+                          {
+                            "k": "name",
+                            "v": "rui0302-sasaki"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "U_kgDOENqDLg"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/rui0302-sasaki/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/rui0302-sasaki/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/rui0302-sasaki/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/rui0302-sasaki/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/rui0302-sasaki/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/rui0302-sasaki"
+                          },
+                          {
+                            "k": "user_view_type",
+                            "v": "public"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pull_request_creation_policy",
+                      "v": "all"
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1779344929.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 180757.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:rui0302-sasaki/docker-simple-cicd-demo.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/rui0302-sasaki/docker-simple-cicd-demo"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2026-05-21T06:20:35Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/repos/rui0302-sasaki/docker-simple-cicd-demo"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/282755886?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/rui0302-sasaki/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/rui0302-sasaki/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/rui0302-sasaki/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/rui0302-sasaki/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/rui0302-sasaki"
+                    },
+                    {
+                      "k": "id",
+                      "v": 282755886.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "rui0302-sasaki"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "U_kgDOENqDLg"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/rui0302-sasaki/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/rui0302-sasaki/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/rui0302-sasaki/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/rui0302-sasaki/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/rui0302-sasaki/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/rui0302-sasaki"
+                    },
+                    {
+                      "k": "user_view_type",
+                      "v": "public"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "workflow_ref",
+          "v": "rui0302-sasaki/docker-simple-cicd-demo/.github/workflows/main.yml@refs/heads/main"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "64b02af11e0677a81c83d157211cd1e145d9a7c5"
+        },
+        {
+          "k": "repository_id",
+          "v": "1244244829"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "rui0302-sasaki"
+        }
+      ]
+    },
+    "inputs": {
+      "t": 2
+    },
+    "job": {
+      "t": 2,
+      "d": [
+        {
+          "k": "check_run_id",
+          "v": 77116713056.0
+        },
+        {
+          "k": "workflow_ref",
+          "v": "rui0302-sasaki/docker-simple-cicd-demo/.github/workflows/main.yml@refs/heads/main"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "64b02af11e0677a81c83d157211cd1e145d9a7c5"
+        },
+        {
+          "k": "workflow_repository",
+          "v": "rui0302-sasaki/docker-simple-cicd-demo"
+        },
+        {
+          "k": "workflow_file_path",
+          "v": ".github/workflows/main.yml"
+        }
+      ]
+    },
+    "matrix": null,
+    "needs": {
+      "t": 2
+    },
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    },
+    "vars": {
+      "t": 2
+    }
+  },
+  "billingOwnerId": "U_kgDOENqDLg"
+}
+[2026-05-21 06:29:52Z INFO JobRunner] Job ID 88586c24-fc68-5739-be84-f4473f642188
+[2026-05-21 06:29:52Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin\Runner.Worker.dll
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO ConfigurationStore] binPath: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO ConfigurationStore] RootFolder: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known config file 'Runner': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.runner'
+[2026-05-21 06:29:52Z INFO ConfigurationStore] ConfigFilePath: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.runner
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.runner_migrated'
+[2026-05-21 06:29:52Z INFO ConfigurationStore] MigratedConfigFilePath: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.runner_migrated
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials'
+[2026-05-21 06:29:52Z INFO ConfigurationStore] CredFilePath: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_migrated'
+[2026-05-21 06:29:52Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_migrated
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known config file 'Service': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.service'
+[2026-05-21 06:29:52Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.service
+[2026-05-21 06:29:52Z INFO ConfigurationStore] Read setting file: 453 chars
+[2026-05-21 06:29:52Z INFO JobRunner] Initializing launch client
+[2026-05-21 06:29:52Z INFO JobServerQueue] Initializing results client
+[2026-05-21 06:29:52Z INFO ResultServer] Creating websocket client ...wss://results-receiver.actions.githubusercontent.com/_ws/ingest.sock
+[2026-05-21 06:29:52Z INFO ResultServer] Attempting to start websocket client with delay 00:00:00.
+[2026-05-21 06:29:52Z INFO JobServerQueue] Start process web console line queue.
+[2026-05-21 06:29:52Z INFO JobServerQueue] Start process file upload queue.
+[2026-05-21 06:29:52Z INFO JobServerQueue] Start results file upload queue.
+[2026-05-21 06:29:52Z INFO JobServerQueue] Starting results-based upload queue...
+[2026-05-21 06:29:52Z INFO JobServerQueue] Start process timeline update queue.
+[2026-05-21 06:29:52Z INFO ExecutionContext] Initializing Job context
+[2026-05-21 06:29:52Z INFO ExecutionContext] Initialize GitHub context
+[2026-05-21 06:29:52Z INFO ExecutionContext] Initialize Env context
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:52Z INFO JobRunner] Starting the job execution context.
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:52Z INFO JobRunner] Validating directory permissions for: 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Tools': 'C:\Users\matisse\Desktop\actions-work\_tool'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Temp': 'C:\Users\matisse\Desktop\actions-work\_temp'
+[2026-05-21 06:29:52Z INFO JobRunner] Getting job extension.
+[2026-05-21 06:29:52Z INFO JobRunner] Initialize job. Getting all job steps.
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.setup_info'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:52Z INFO PipelineDirectoryManager] Loading tracking config if exists: C:\Users\matisse\Desktop\actions-work\_PipelineMapping\rui0302-sasaki/docker-simple-cicd-demo\PipelineFolder.json
+[2026-05-21 06:29:52Z INFO PipelineDirectoryManager] Updating job run properties.
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:52Z INFO JobExtension] Downloading actions
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:52Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:52Z INFO Worker] Listening for cancel message from the channel.
+[2026-05-21 06:29:52Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2026-05-21 06:29:52Z INFO ResultServer] Successfully started websocket client.
+[2026-05-21 06:29:52Z INFO JobServerQueue] Try to append 1 batches web console lines for record '530e9b76-7bbe-41e6-bf39-47be3a36415a', success rate: 1/1.
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:53Z INFO ActionManager] Save archive 'https://codeload.github.com/actions/checkout/zip/f43a0e5ff2bd294095638e18286ca9a3d1956744' into C:\Users\matisse\Desktop\actions-work\_actions\_temp_24f6f948-3ed8-42ab-86d7-50e694135881\0c70a4f8-d4bb-4493-850f-e636ac275729.zip.
+[2026-05-21 06:29:53Z INFO ActionManager] Using Basic token for action archive download.
+[2026-05-21 06:29:53Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2026-05-21 06:29:53Z INFO JobServerQueue] Try to append 1 batches web console lines for record '530e9b76-7bbe-41e6-bf39-47be3a36415a', success rate: 1/1.
+[2026-05-21 06:29:53Z INFO ActionManager] Request URL: https://codeload.github.com/actions/checkout/zip/f43a0e5ff2bd294095638e18286ca9a3d1956744 X-GitHub-Request-Id: EBBE:14CCE0:78D58:188A85:6A0EA660 Http Status: OK
+[2026-05-21 06:29:53Z INFO ActionManager] Finished getting action repository.
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:53Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:53Z INFO ActionManager] Save archive 'https://codeload.github.com/aws-actions/configure-aws-credentials/zip/67fbcbb121271f7775d2e7715933280b06314838' into C:\Users\matisse\Desktop\actions-work\_actions\_temp_2905b419-9864-43d4-a0b3-65317427a98d\474d0b9c-c1e5-4ed9-8bab-60280a2b3379.zip.
+[2026-05-21 06:29:53Z INFO ActionManager] Using Basic token for action archive download.
+[2026-05-21 06:29:53Z INFO JobServerQueue] Try to append 1 batches web console lines for record '530e9b76-7bbe-41e6-bf39-47be3a36415a', success rate: 1/1.
+[2026-05-21 06:29:53Z INFO ActionManager] Request URL: https://codeload.github.com/aws-actions/configure-aws-credentials/zip/67fbcbb121271f7775d2e7715933280b06314838 X-GitHub-Request-Id: EBBF:287E47:7146D:1812AE:6A0EA661 Http Status: OK
+[2026-05-21 06:29:54Z INFO ActionManager] Finished getting action repository.
+[2026-05-21 06:29:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:54Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:54Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:54Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:54Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:54Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:54Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:54Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:54Z INFO ActionManager] Save archive 'https://codeload.github.com/aws-actions/amazon-ecr-login/zip/5a88a04c91d5c6f97aae0d9be790e64d9b1d47b7' into C:\Users\matisse\Desktop\actions-work\_actions\_temp_aad9e73b-6924-4a4c-ae06-c46e0fbece50\90ab6dae-caca-4791-9fcf-7ae97f2f93cc.zip.
+[2026-05-21 06:29:54Z INFO ActionManager] Using Basic token for action archive download.
+[2026-05-21 06:29:54Z INFO JobServerQueue] Try to append 1 batches web console lines for record '530e9b76-7bbe-41e6-bf39-47be3a36415a', success rate: 1/1.
+[2026-05-21 06:29:54Z INFO ActionManager] Request URL: https://codeload.github.com/aws-actions/amazon-ecr-login/zip/5a88a04c91d5c6f97aae0d9be790e64d9b1d47b7 X-GitHub-Request-Id: EBC0:33991:6FCDA:17FAA1:6A0EA662 Http Status: OK
+[2026-05-21 06:29:54Z INFO ActionManager] Finished getting action repository.
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "boolean-steps-context",
+  "step-env",
+  "step-if",
+  "step-with"
+]
+[2026-05-21 06:29:55Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "boolean-steps-context",
+  "step-env",
+  "step-if",
+  "step-with"
+]
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2026-05-21 06:29:55Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO ActionManager] Load action that reference repository from 'C:\Users\matisse\Desktop\actions-work\_actions\actions\checkout\v3'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2026-05-21 06:29:55Z INFO ActionManager] Action pre node.js file: N/A.
+[2026-05-21 06:29:55Z INFO ActionManager] Action node.js file: dist/index.js.
+[2026-05-21 06:29:55Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Ignore action property branding.
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Loaded action.yml file: {
+  "name": "\"Configure AWS Credentials\" Action For GitHub Actions",
+  "description": "Configure AWS credential and region environment variables for use with the AWS CLI and AWS SDKs",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 7,
+          "col": 3,
+          "lit": "audience"
+        },
+        "value": {
+          "type": 0,
+          "file": 3,
+          "line": 8,
+          "col": 14,
+          "lit": "sts.amazonaws.com"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 11,
+          "col": 3,
+          "lit": "aws-access-key-id"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 17,
+          "col": 3,
+          "lit": "aws-secret-access-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 23,
+          "col": 3,
+          "lit": "aws-session-token"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 26,
+          "col": 3,
+          "lit": "aws-region"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 29,
+          "col": 3,
+          "lit": "mask-aws-account-id"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 35,
+          "col": 3,
+          "lit": "role-to-assume"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 41,
+          "col": 3,
+          "lit": "web-identity-token-file"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 46,
+          "col": 3,
+          "lit": "role-duration-seconds"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 49,
+          "col": 3,
+          "lit": "role-session-name"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 52,
+          "col": 3,
+          "lit": "role-external-id"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 55,
+          "col": 3,
+          "lit": "role-skip-session-tagging"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/cleanup/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2026-05-21 06:29:55Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO ActionManager] Load action that reference repository from 'C:\Users\matisse\Desktop\actions-work\_actions\aws-actions\configure-aws-credentials\v1'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Ignore action property branding.
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Loaded action.yml file: {
+  "name": "\"Configure AWS Credentials\" Action For GitHub Actions",
+  "description": "Configure AWS credential and region environment variables for use with the AWS CLI and AWS SDKs",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 7,
+          "col": 3,
+          "lit": "audience"
+        },
+        "value": {
+          "type": 0,
+          "file": 3,
+          "line": 8,
+          "col": 14,
+          "lit": "sts.amazonaws.com"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 11,
+          "col": 3,
+          "lit": "aws-access-key-id"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 17,
+          "col": 3,
+          "lit": "aws-secret-access-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 23,
+          "col": 3,
+          "lit": "aws-session-token"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 26,
+          "col": 3,
+          "lit": "aws-region"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 29,
+          "col": 3,
+          "lit": "mask-aws-account-id"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 35,
+          "col": 3,
+          "lit": "role-to-assume"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 41,
+          "col": 3,
+          "lit": "web-identity-token-file"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 46,
+          "col": 3,
+          "lit": "role-duration-seconds"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 49,
+          "col": 3,
+          "lit": "role-session-name"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 52,
+          "col": 3,
+          "lit": "role-external-id"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 3,
+          "line": 55,
+          "col": 3,
+          "lit": "role-skip-session-tagging"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/cleanup/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2026-05-21 06:29:55Z INFO ActionManager] Action pre node.js file: N/A.
+[2026-05-21 06:29:55Z INFO ActionManager] Action node.js file: dist/index.js.
+[2026-05-21 06:29:55Z INFO ActionManager] Action post node.js file: dist/cleanup/index.js.
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Ignore action property branding.
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Loaded action.yml file: {
+  "name": "Amazon ECR \"Login\" Action for GitHub Actions",
+  "description": "Logs in the local Docker client to one or more Amazon ECR Private registries or an Amazon ECR Public registry",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 4,
+          "line": 7,
+          "col": 3,
+          "lit": "http-proxy"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 4,
+          "line": 11,
+          "col": 3,
+          "lit": "mask-password"
+        },
+        "value": {
+          "type": 0,
+          "file": 4,
+          "line": 17,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 4,
+          "line": 18,
+          "col": 3,
+          "lit": "registries"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 4,
+          "line": 24,
+          "col": 3,
+          "lit": "registry-type"
+        },
+        "value": {
+          "type": 0,
+          "file": 4,
+          "line": 29,
+          "col": 14,
+          "lit": "private"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 4,
+          "line": 30,
+          "col": 3,
+          "lit": "skip-logout"
+        },
+        "value": {
+          "type": 0,
+          "file": 4,
+          "line": 37,
+          "col": 14,
+          "lit": "false"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/cleanup/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2026-05-21 06:29:55Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO ActionManager] Load action that reference repository from 'C:\Users\matisse\Desktop\actions-work\_actions\aws-actions\amazon-ecr-login\v1'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Ignore action property branding.
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Loaded action.yml file: {
+  "name": "Amazon ECR \"Login\" Action for GitHub Actions",
+  "description": "Logs in the local Docker client to one or more Amazon ECR Private registries or an Amazon ECR Public registry",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 4,
+          "line": 7,
+          "col": 3,
+          "lit": "http-proxy"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 4,
+          "line": 11,
+          "col": 3,
+          "lit": "mask-password"
+        },
+        "value": {
+          "type": 0,
+          "file": 4,
+          "line": 17,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 4,
+          "line": 18,
+          "col": 3,
+          "lit": "registries"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 4,
+          "line": 24,
+          "col": 3,
+          "lit": "registry-type"
+        },
+        "value": {
+          "type": 0,
+          "file": 4,
+          "line": 29,
+          "col": 14,
+          "lit": "private"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 4,
+          "line": 30,
+          "col": 3,
+          "lit": "skip-logout"
+        },
+        "value": {
+          "type": 0,
+          "file": 4,
+          "line": 37,
+          "col": 14,
+          "lit": "false"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/cleanup/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2026-05-21 06:29:55Z INFO ActionManager] Action pre node.js file: N/A.
+[2026-05-21 06:29:55Z INFO ActionManager] Action node.js file: dist/index.js.
+[2026-05-21 06:29:55Z INFO ActionManager] Action post node.js file: dist/cleanup/index.js.
+[2026-05-21 06:29:55Z INFO JobExtension] Adding .
+[2026-05-21 06:29:55Z INFO JobExtension] Adding .
+[2026-05-21 06:29:55Z INFO JobExtension] Adding .
+[2026-05-21 06:29:55Z INFO JobExtension] Adding .
+[2026-05-21 06:29:55Z INFO JobExtension] Adding .
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:55Z INFO JobExtension] Total accessible running process: 375.
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO JobExtension] Start checking server connectivity.
+[2026-05-21 06:29:55Z INFO JobExtension] Check server connectivity for https://broker.actions.githubusercontent.com/health.
+[2026-05-21 06:29:55Z INFO JobExtension] Check server connectivity for https://token.actions.githubusercontent.com/ready.
+[2026-05-21 06:29:55Z INFO JobExtension] Check server connectivity for https://run.actions.githubusercontent.com/health.
+[2026-05-21 06:29:55Z INFO JobExtension] Start checking service connectivity in background.
+[2026-05-21 06:29:55Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "530e9b76-7bbe-41e6-bf39-47be3a36415a",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 4,
+  "startTime": "2026-05-21T06:29:52.1256153Z",
+  "finishTime": "2026-05-21T06:29:55.2256663Z"
+}.
+[2026-05-21 06:29:55Z INFO JobServerQueue] Try to append 1 batches web console lines for record '530e9b76-7bbe-41e6-bf39-47be3a36415a', success rate: 1/1.
+[2026-05-21 06:29:55Z INFO JobRunner] Total job steps: 5.
+[2026-05-21 06:29:55Z INFO JobRunner] Run all job steps.
+[2026-05-21 06:29:55Z INFO DapDebugger] DapDebugger initialized
+[2026-05-21 06:29:55Z INFO StepsRunner] Processing step: DisplayName='Run actions/checkout@v3'
+[2026-05-21 06:29:55Z INFO StepsRunner] Evaluating: success()
+[2026-05-21 06:29:55Z INFO StepsRunner] Result: true
+[2026-05-21 06:29:55Z INFO StepsRunner] Starting the step.
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO StepsRunner] Which2: 'chcp'
+[2026-05-21 06:29:55Z INFO StepsRunner] Location: 'C:\windows\system32\chcp.COM'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper] Starting process:
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   File name: 'C:\windows\system32\chcp.COM'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper] Process started with process id 7536, waiting for process exit.
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper] Finished process 7536 with exit code 0, and elapsed time 00:00:00.0930040.
+[2026-05-21 06:29:55Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO ActionManager] Load action that reference repository from 'C:\Users\matisse\Desktop\actions-work\_actions\actions\checkout\v3'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2026-05-21 06:29:55Z INFO ActionManager] Action pre node.js file: N/A.
+[2026-05-21 06:29:55Z INFO ActionManager] Action node.js file: dist/index.js.
+[2026-05-21 06:29:55Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2026-05-21 06:29:55Z INFO ExecutionContext] Reserve record order 7 to 12 for post job actions.
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Temp': 'C:\Users\matisse\Desktop\actions-work\_temp'
+[2026-05-21 06:29:55Z INFO ExecutionContext] Write event payload to C:\Users\matisse\Desktop\actions-work\_temp\_github_workflow\event.json
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Temp': 'C:\Users\matisse\Desktop\actions-work\_temp'
+[2026-05-21 06:29:55Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "rui0302-sasaki/docker-simple-cicd-demo"
+}
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'ref': default value evaluate result: ""
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'ssh-key': default value evaluate result: ""
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'ssh-known-hosts': default value evaluate result: ""
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'path': default value evaluate result: ""
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'sparse-checkout': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 60,
+  "col": 14,
+  "lit": ""
+}
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'sparse-checkout-cone-mode': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 64,
+  "col": 14,
+  "lit": "true"
+}
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 67,
+  "col": 14,
+  "lit": "1"
+}
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'fetch-tags': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "false"
+}
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 82,
+  "col": 14,
+  "lit": "false"
+}
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 85,
+  "col": 14,
+  "lit": "true"
+}
+[2026-05-21 06:29:55Z INFO ActionManifestManagerLegacy] Input 'github-server-url': default value evaluate result: ""
+[2026-05-21 06:29:55Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command set-env
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command set-output
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command save-state
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command add-path
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command warning
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command error
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command notice
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command debug
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command group
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2026-05-21 06:29:55Z INFO ActionCommandManager] Register action command extension for command echo
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:29:55Z INFO HostContext] Well known directory 'Externals': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\externals'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper] Starting process:
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\externals\node20\bin\node.exe'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\matisse\Desktop\actions-work\_actions\actions\checkout\v3\dist/index.js"'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\matisse\Desktop\actions-work\docker-simple-cicd-demo\docker-simple-cicd-demo'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2026-05-21 06:29:55Z INFO ProcessInvokerWrapper] Process started with process id 19164, waiting for process exit.
+[2026-05-21 06:29:55Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:29:55Z INFO AddMaskCommandExtension] Add new secret mask with length of 76
+[2026-05-21 06:29:55Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:29:56Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:29:56Z INFO JobServerQueue] Got a step log file to send to results service.
+[2026-05-21 06:29:56Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag\blocks\3dfe47ce-ea7d-4848-9a30-b7b76a7cc27a_530e9b76-7bbe-41e6-bf39-47be3a36415a.1
+[2026-05-21 06:29:56Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2026-05-21 06:29:56Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:29:56Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:29:57Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2026-05-21 06:29:57Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:29:57Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:29:58Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:29:58Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:29:59Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:00Z INFO JobServerQueue] Try to append 2 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 2/2.
+[2026-05-21 06:30:01Z INFO JobServerQueue] Try to append 2 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 2/2.
+[2026-05-21 06:30:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:03Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:05Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:05Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:05Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:05Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:06Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:07Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:08Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:09Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:09Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:09Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:09Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:10Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:10Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:10Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:11Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:11Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:11Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:12Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:13Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:14Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:15Z INFO JobServerQueue] Try to append 2 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 2/2.
+[2026-05-21 06:30:15Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:15Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:15Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:15Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:16Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper] Finished process 19164 with exit code 0, and elapsed time 00:00:23.2443215.
+[2026-05-21 06:30:18Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\matisse\Desktop\actions-work\_temp\_runner_file_commands\step_summary_10b0fe82-45a0-4d7f-826c-3d689042b780) is empty; skipping attachment upload
+[2026-05-21 06:30:18Z INFO StepsRunner] Step result: 
+[2026-05-21 06:30:18Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v3",
+  "type": "node20",
+  "stage": "Main",
+  "stepId": "5bc8a180-4305-4a89-9087-b07d0db20c83",
+  "stepContextName": "__actions_checkout",
+  "hasPreStep": false,
+  "hasPostStep": true,
+  "result": "succeeded",
+  "errorMessages": [
+    "no submodule mapping found in .gitmodules for path 'actions-runner/_work/docker-simple-cicd-demo/docker-simple-cicd-demo'",
+    "Unable to clean or reset the repository. The repository will be recreated instead."
+  ],
+  "executionTimeInSeconds": 24,
+  "startTime": "2026-05-21T06:29:55.245467Z",
+  "finishTime": "2026-05-21T06:30:18.672918Z"
+}.
+[2026-05-21 06:30:18Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2026-05-21 06:30:18Z INFO StepsRunner] Current state: job state = ''
+[2026-05-21 06:30:18Z INFO StepsRunner] Processing step: DisplayName='Build an Image and Run Tests'
+[2026-05-21 06:30:18Z INFO StepsRunner] Evaluating: success()
+[2026-05-21 06:30:18Z INFO StepsRunner] Result: true
+[2026-05-21 06:30:18Z INFO StepsRunner] Starting the step.
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:18Z INFO StepsRunner] Which2: 'chcp'
+[2026-05-21 06:30:18Z INFO StepsRunner] Location: 'C:\windows\system32\chcp.COM'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper] Starting process:
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   File name: 'C:\windows\system32\chcp.COM'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper] Process started with process id 14616, waiting for process exit.
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper] Finished process 14616 with exit code 0, and elapsed time 00:00:00.0138027.
+[2026-05-21 06:30:18Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Temp': 'C:\Users\matisse\Desktop\actions-work\_temp'
+[2026-05-21 06:30:18Z INFO ExecutionContext] Write event payload to C:\Users\matisse\Desktop\actions-work\_temp\_github_workflow\event.json
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Temp': 'C:\Users\matisse\Desktop\actions-work\_temp'
+[2026-05-21 06:30:18Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2026-05-21 06:30:18Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command set-env
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command set-output
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command save-state
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command add-path
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command warning
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command error
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command notice
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command debug
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command group
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2026-05-21 06:30:18Z INFO ActionCommandManager] Register action command extension for command echo
+[2026-05-21 06:30:18Z INFO ScriptHandler] Which2: 'pwsh'
+[2026-05-21 06:30:18Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2026-05-21 06:30:18Z INFO ScriptHandler] Defaulting to powershell
+[2026-05-21 06:30:18Z INFO ScriptHandler] Which2: 'powershell'
+[2026-05-21 06:30:18Z INFO ScriptHandler] Location: 'C:\windows\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:18Z INFO HostContext] Well known directory 'Temp': 'C:\Users\matisse\Desktop\actions-work\_temp'
+[2026-05-21 06:30:18Z INFO ScriptHandler] Which2: 'pwsh'
+[2026-05-21 06:30:18Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2026-05-21 06:30:18Z INFO ScriptHandler] Defaulting to powershell
+[2026-05-21 06:30:18Z INFO ScriptHandler] Which2: 'powershell'
+[2026-05-21 06:30:18Z INFO ScriptHandler] Location: 'C:\windows\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper] Starting process:
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   File name: 'C:\windows\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Arguments: '-command ". 'C:\Users\matisse\Desktop\actions-work\_temp\d90f3f73-6067-4d37-b170-42f39da28922.ps1'"'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\matisse\Desktop\actions-work\docker-simple-cicd-demo\docker-simple-cicd-demo\api'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2026-05-21 06:30:18Z INFO ProcessInvokerWrapper] Process started with process id 10820, waiting for process exit.
+[2026-05-21 06:30:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5bc8a180-4305-4a89-9087-b07d0db20c83', success rate: 1/1.
+[2026-05-21 06:30:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'af3ae4dc-c316-4976-992d-53fcd312f3b7', success rate: 1/1.
+[2026-05-21 06:30:19Z INFO JobServerQueue] Got a step log file to send to results service.
+[2026-05-21 06:30:19Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag\blocks\3dfe47ce-ea7d-4848-9a30-b7b76a7cc27a_5bc8a180-4305-4a89-9087-b07d0db20c83.1
+[2026-05-21 06:30:19Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2026-05-21 06:30:19Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'af3ae4dc-c316-4976-992d-53fcd312f3b7', success rate: 1/1.
+[2026-05-21 06:30:19Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper] Finished process 10820 with exit code 1, and elapsed time 00:00:01.7396112.
+[2026-05-21 06:30:20Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\matisse\Desktop\actions-work\_temp\_runner_file_commands\step_summary_f4caa2cb-6a0c-405e-bc5b-66b981a6087c) is empty; skipping attachment upload
+[2026-05-21 06:30:20Z INFO StepsRunner] Step result: Failed
+[2026-05-21 06:30:20Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "powershell",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "af3ae4dc-c316-4976-992d-53fcd312f3b7",
+  "stepContextName": "__run",
+  "result": "failed",
+  "errorMessages": [
+    "Process completed with exit code 1."
+  ],
+  "executionTimeInSeconds": 2,
+  "startTime": "2026-05-21T06:30:18.6756732Z",
+  "finishTime": "2026-05-21T06:30:20.4569874Z"
+}.
+[2026-05-21 06:30:20Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2026-05-21 06:30:20Z INFO StepsRunner] Current state: job state = 'Failed'
+[2026-05-21 06:30:20Z INFO StepsRunner] Processing step: DisplayName='Configure AWS credentials'
+[2026-05-21 06:30:20Z INFO StepsRunner] Evaluating: success()
+[2026-05-21 06:30:20Z INFO StepsRunner] Result: false
+[2026-05-21 06:30:20Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2026-05-21 06:30:20Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2026-05-21 06:30:20Z INFO StepsRunner] Current state: job state = 'Failed'
+[2026-05-21 06:30:20Z INFO StepsRunner] Processing step: DisplayName='Login to Amazon ECR'
+[2026-05-21 06:30:20Z INFO StepsRunner] Evaluating: success()
+[2026-05-21 06:30:20Z INFO StepsRunner] Result: false
+[2026-05-21 06:30:20Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2026-05-21 06:30:20Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2026-05-21 06:30:20Z INFO StepsRunner] Current state: job state = 'Failed'
+[2026-05-21 06:30:20Z INFO StepsRunner] Processing step: DisplayName='Push the image to Amazon ECR'
+[2026-05-21 06:30:20Z INFO StepsRunner] Evaluating: success()
+[2026-05-21 06:30:20Z INFO StepsRunner] Result: false
+[2026-05-21 06:30:20Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2026-05-21 06:30:20Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2026-05-21 06:30:20Z INFO StepsRunner] Current state: job state = 'Failed'
+[2026-05-21 06:30:20Z INFO StepsRunner] Processing step: DisplayName='Post Run actions/checkout@v3'
+[2026-05-21 06:30:20Z INFO StepsRunner] Evaluating: always()
+[2026-05-21 06:30:20Z INFO StepsRunner] Result: true
+[2026-05-21 06:30:20Z INFO StepsRunner] Starting the step.
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:20Z INFO StepsRunner] Which2: 'chcp'
+[2026-05-21 06:30:20Z INFO StepsRunner] Location: 'C:\windows\system32\chcp.COM'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper] Starting process:
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   File name: 'C:\windows\system32\chcp.COM'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper] Process started with process id 17528, waiting for process exit.
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper] Finished process 17528 with exit code 0, and elapsed time 00:00:00.0159577.
+[2026-05-21 06:30:20Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:30:20Z INFO ActionManager] Load action that reference repository from 'C:\Users\matisse\Desktop\actions-work\_actions\actions\checkout\v3'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Actions': 'C:\Users\matisse\Desktop\actions-work\_actions'
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2026-05-21 06:30:20Z INFO ActionManager] Action pre node.js file: N/A.
+[2026-05-21 06:30:20Z INFO ActionManager] Action node.js file: dist/index.js.
+[2026-05-21 06:30:20Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Temp': 'C:\Users\matisse\Desktop\actions-work\_temp'
+[2026-05-21 06:30:20Z INFO ExecutionContext] Write event payload to C:\Users\matisse\Desktop\actions-work\_temp\_github_workflow\event.json
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\actions-work'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Temp': 'C:\Users\matisse\Desktop\actions-work\_temp'
+[2026-05-21 06:30:20Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "rui0302-sasaki/docker-simple-cicd-demo"
+}
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'ref': default value evaluate result: ""
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'ssh-key': default value evaluate result: ""
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'ssh-known-hosts': default value evaluate result: ""
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'path': default value evaluate result: ""
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'sparse-checkout': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 60,
+  "col": 14,
+  "lit": ""
+}
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'sparse-checkout-cone-mode': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 64,
+  "col": 14,
+  "lit": "true"
+}
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 67,
+  "col": 14,
+  "lit": "1"
+}
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'fetch-tags': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "false"
+}
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 82,
+  "col": 14,
+  "lit": "false"
+}
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 85,
+  "col": 14,
+  "lit": "true"
+}
+[2026-05-21 06:30:20Z INFO ActionManifestManagerLegacy] Input 'github-server-url': default value evaluate result: ""
+[2026-05-21 06:30:20Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command set-env
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command set-output
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command save-state
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command add-path
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command warning
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command error
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command notice
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command debug
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command group
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2026-05-21 06:30:20Z INFO ActionCommandManager] Register action command extension for command echo
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:20Z INFO HostContext] Well known directory 'Externals': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\externals'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper] Starting process:
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\externals\node20\bin\node.exe'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\matisse\Desktop\actions-work\_actions\actions\checkout\v3\dist/index.js"'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\matisse\Desktop\actions-work\docker-simple-cicd-demo\docker-simple-cicd-demo'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2026-05-21 06:30:20Z INFO ProcessInvokerWrapper] Process started with process id 12152, waiting for process exit.
+[2026-05-21 06:30:20Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'af3ae4dc-c316-4976-992d-53fcd312f3b7', success rate: 1/1.
+[2026-05-21 06:30:20Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c2bae4a7-e28f-4d04-a22d-152cb44312cb', success rate: 1/1.
+[2026-05-21 06:30:20Z INFO AddMaskCommandExtension] Add new secret mask with length of 32
+[2026-05-21 06:30:20Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c2bae4a7-e28f-4d04-a22d-152cb44312cb', success rate: 1/1.
+[2026-05-21 06:30:20Z INFO JobServerQueue] Got a step log file to send to results service.
+[2026-05-21 06:30:20Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag\blocks\3dfe47ce-ea7d-4848-9a30-b7b76a7cc27a_af3ae4dc-c316-4976-992d-53fcd312f3b7.1
+[2026-05-21 06:30:21Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2026-05-21 06:30:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 06:30:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 06:30:21Z INFO ProcessInvokerWrapper] Finished process 12152 with exit code 0, and elapsed time 00:00:01.0298359.
+[2026-05-21 06:30:21Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\matisse\Desktop\actions-work\_temp\_runner_file_commands\step_summary_2d25cc1d-9101-4675-afec-f13857e9dae2) is empty; skipping attachment upload
+[2026-05-21 06:30:21Z INFO StepsRunner] Step result: 
+[2026-05-21 06:30:21Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v3",
+  "type": "node20",
+  "stage": "Post",
+  "stepId": "c2bae4a7-e28f-4d04-a22d-152cb44312cb",
+  "result": "succeeded",
+  "errorMessages": [
+    "The process 'C:\\Program Files\\Git\\cmd\\git.exe' failed with exit code 128"
+  ],
+  "executionTimeInSeconds": 2,
+  "startTime": "2026-05-21T06:30:20.460714Z",
+  "finishTime": "2026-05-21T06:30:21.5224538Z"
+}.
+[2026-05-21 06:30:21Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2026-05-21 06:30:21Z INFO StepsRunner] Current state: job state = 'Failed'
+[2026-05-21 06:30:21Z INFO JobRunner] Finalize job.
+[2026-05-21 06:30:21Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2026-05-21 06:30:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:21Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:30:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:21Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:30:21Z INFO JobExtension] Initialize Env context
+[2026-05-21 06:30:21Z INFO JobExtension] Initialize steps context
+[2026-05-21 06:30:21Z INFO JobExtension] Total accessible running process: 376.
+[2026-05-21 06:30:21Z INFO JobExtension] Inspecting process environment variables. PID: 21348 (svchost)
+[2026-05-21 06:30:21Z WARN JobExtension] Ignore exception during read process environment variables: アクセスが拒否されました。
+[2026-05-21 06:30:21Z INFO JobExtension] Inspecting process environment variables. PID: 1668 (dllhost)
+[2026-05-21 06:30:21Z INFO JobExtension] Wait for all connectivity checks to finish.
+[2026-05-21 06:30:21Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2026-05-21 06:30:21Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2026-05-21 06:30:21Z INFO JobExtension] Connectivity check result: GitHub.Runner.Worker.JobExtension+CheckResult
+[2026-05-21 06:30:21Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "241290e3-bf9b-433b-821a-b19bfae564f6",
+  "result": "succeeded",
+  "errorMessages": [
+    "Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v3. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runn"
+  ],
+  "executionTimeInSeconds": 1,
+  "startTime": "2026-05-21T06:30:21.5280057Z",
+  "finishTime": "2026-05-21T06:30:21.5808056Z"
+}.
+[2026-05-21 06:30:21Z INFO JobRunner] Job result after all job steps finish: Failed
+[2026-05-21 06:30:21Z INFO JobRunner] Completing the job execution context.
+[2026-05-21 06:30:21Z INFO JobRunner] Shutting down the job server queue.
+[2026-05-21 06:30:21Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2026-05-21 06:30:22Z INFO JobServerQueue] All queue process task stopped.
+[2026-05-21 06:30:22Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c2bae4a7-e28f-4d04-a22d-152cb44312cb', success rate: 1/1.
+[2026-05-21 06:30:22Z INFO JobServerQueue] Try to append 1 batches web console lines for record '241290e3-bf9b-433b-821a-b19bfae564f6', success rate: 1/1.
+[2026-05-21 06:30:22Z INFO JobServerQueue] Web console line queue drained.
+[2026-05-21 06:30:22Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2026-05-21 06:30:22Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2026-05-21 06:30:22Z INFO JobServerQueue] File upload queue drained.
+[2026-05-21 06:30:22Z INFO JobServerQueue] Starting results-based upload queue...
+[2026-05-21 06:30:22Z INFO JobServerQueue] Uploading 3 file(s) in one shot through results service.
+[2026-05-21 06:30:22Z INFO JobServerQueue] Got a step log file to send to results service.
+[2026-05-21 06:30:22Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag\blocks\3dfe47ce-ea7d-4848-9a30-b7b76a7cc27a_c2bae4a7-e28f-4d04-a22d-152cb44312cb.1
+[2026-05-21 06:30:23Z INFO JobServerQueue] Got a step log file to send to results service.
+[2026-05-21 06:30:23Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag\blocks\3dfe47ce-ea7d-4848-9a30-b7b76a7cc27a_241290e3-bf9b-433b-821a-b19bfae564f6.1
+[2026-05-21 06:30:23Z INFO JobServerQueue] Got a job log file to send to results service.
+[2026-05-21 06:30:23Z INFO JobServerQueue] Starting upload of job log file to results service ResultsLog, C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag\blocks\3dfe47ce-ea7d-4848-9a30-b7b76a7cc27a_88586c24-fc68-5739-be84-f4473f642188.1
+[2026-05-21 06:30:24Z INFO JobServerQueue] Tried to upload 3 file(s) to results, success rate: 3/3.
+[2026-05-21 06:30:24Z INFO JobServerQueue] Results upload queue drained.
+[2026-05-21 06:30:24Z INFO JobServerQueue] Timeline update queue drained.
+[2026-05-21 06:30:24Z INFO JobServerQueue] Disposing job server ...
+[2026-05-21 06:30:24Z INFO JobServerQueue] Disposing results server ...
+[2026-05-21 06:30:24Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2026-05-21 06:30:24Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\Users\matisse\Desktop\actions-work\_temp
+[2026-05-21 06:30:24Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 06:30:24Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 06:30:24Z INFO HostContext] Well known directory 'Diag': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag'
+[2026-05-21 06:30:24Z INFO HostContext] Well known config file 'Telemetry': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_diag\.telemetry'
+[2026-05-21 06:30:24Z INFO JobRunner] Raising job completed against run service
+[2026-05-21 06:30:25Z INFO Worker] Job completed.
