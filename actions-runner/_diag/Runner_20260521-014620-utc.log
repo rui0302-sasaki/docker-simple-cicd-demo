@@ -1,0 +1,367 @@
+[2026-05-21 01:46:20Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 01:46:20Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 01:46:20Z INFO HostContext] Well known config file 'Runner': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.runner'
+[2026-05-21 01:46:20Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2026-05-21 01:46:20Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.26200.
+[2026-05-21 01:46:20Z INFO Listener] Version: 2.334.0
+[2026-05-21 01:46:20Z INFO Listener] Commit: f1995ede5d885c997d13d8eca5467c4ce97fe69c
+[2026-05-21 01:46:20Z INFO Listener] Culture: ja-JP
+[2026-05-21 01:46:20Z INFO Listener] UI Culture: ja-JP
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 01:46:20Z INFO Listener] Validating directory permissions for: 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 01:46:20Z INFO CommandLineParser] Parse
+[2026-05-21 01:46:20Z INFO CommandLineParser] Parsing 1 args
+[2026-05-21 01:46:20Z INFO CommandLineParser] parsing argument
+[2026-05-21 01:46:20Z INFO CommandLineParser] HasArgs: False
+[2026-05-21 01:46:20Z INFO CommandLineParser] Adding Command: run
+[2026-05-21 01:46:20Z INFO Listener] Arguments parsed
+[2026-05-21 01:46:20Z INFO Runner] ExecuteCommand
+[2026-05-21 01:46:20Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin\Runner.Listener.dll
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:46:20Z INFO ConfigurationStore] binPath: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 01:46:20Z INFO ConfigurationStore] RootFolder: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 01:46:20Z INFO HostContext] Well known config file 'Runner': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.runner'
+[2026-05-21 01:46:20Z INFO ConfigurationStore] ConfigFilePath: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.runner
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 01:46:20Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.runner_migrated'
+[2026-05-21 01:46:20Z INFO ConfigurationStore] MigratedConfigFilePath: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.runner_migrated
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 01:46:20Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials'
+[2026-05-21 01:46:20Z INFO ConfigurationStore] CredFilePath: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 01:46:20Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_migrated'
+[2026-05-21 01:46:20Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_migrated
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 01:46:20Z INFO HostContext] Well known config file 'Service': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.service'
+[2026-05-21 01:46:20Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.service
+[2026-05-21 01:46:20Z INFO CommandSettings] Flag 'help': 'False'
+[2026-05-21 01:46:20Z INFO CommandSettings] Flag 'version': 'False'
+[2026-05-21 01:46:20Z INFO CommandSettings] Flag 'commit': 'False'
+[2026-05-21 01:46:20Z INFO CommandSettings] Flag 'check': 'False'
+[2026-05-21 01:46:20Z INFO CommandSettings] Command 'configure': 'False'
+[2026-05-21 01:46:20Z INFO CommandSettings] Command 'remove': 'False'
+[2026-05-21 01:46:20Z INFO CommandSettings] Command 'warmup': 'False'
+[2026-05-21 01:46:20Z INFO ConfigurationManager] LoadSettings
+[2026-05-21 01:46:20Z INFO ConfigurationStore] IsConfigured()
+[2026-05-21 01:46:20Z INFO ConfigurationStore] IsConfigured: True
+[2026-05-21 01:46:20Z INFO ConfigurationManager] Is configured: True
+[2026-05-21 01:46:20Z INFO ConfigurationStore] Read setting file: 417 chars
+[2026-05-21 01:46:20Z INFO ConfigurationManager] Settings Loaded
+[2026-05-21 01:46:20Z INFO ConfigurationStore] IsServiceConfigured()
+[2026-05-21 01:46:20Z INFO ConfigurationStore] IsServiceConfigured: False
+[2026-05-21 01:46:20Z INFO CommandSettings] Command 'run': 'True'
+[2026-05-21 01:46:20Z INFO ConfigurationStore] IsConfigured()
+[2026-05-21 01:46:20Z INFO ConfigurationStore] IsConfigured: True
+[2026-05-21 01:46:20Z INFO ConfigurationManager] Is configured: True
+[2026-05-21 01:46:20Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2026-05-21 01:46:20Z INFO Runner] Set runner startup type - Manual
+[2026-05-21 01:46:20Z INFO CommandSettings] Flag 'once': 'False'
+[2026-05-21 01:46:20Z INFO CommandSettings] Flag 'once': 'False'
+[2026-05-21 01:46:20Z INFO Runner] RunAsync
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Work': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_work'
+[2026-05-21 01:46:20Z INFO Runner] Validating directory permissions for: 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\_work'
+[2026-05-21 01:46:20Z INFO ConfigurationManager] LoadMigratedSettings
+[2026-05-21 01:46:20Z INFO ConfigurationStore] IsMigratedConfigured()
+[2026-05-21 01:46:20Z INFO ConfigurationStore] IsMigratedConfigured: False
+[2026-05-21 01:46:20Z INFO Runner] Failed to load migrated settings: No migrated configuration found.
+[2026-05-21 01:46:20Z INFO Runner] Falling back to original .runner settings
+[2026-05-21 01:46:20Z INFO Runner] Using BrokerMessageListener
+[2026-05-21 01:46:20Z INFO BrokerMessageListener] Using provided settings
+[2026-05-21 01:46:20Z INFO BrokerMessageListener] {
+  "AgentId": 21,
+  "AgentName": "DESKTOP-NM4ID62",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus9.actions.githubusercontent.com/rUBOJHrlkELmj5pV8YbuH7McXaNIRpV3mhlooBPd2S3aXD9CY7/",
+  "GitHubUrl": "https://github.com/rui0302-sasaki/docker-simple-cicd-demo",
+  "WorkFolder": "_work",
+  "UseV2Flow": true,
+  "ServerUrlV2": "https://broker.actions.githubusercontent.com/"
+}
+[2026-05-21 01:46:20Z INFO BrokerMessageListener] Loading Credentials
+[2026-05-21 01:46:20Z INFO ConfigurationStore] HasCredentials()
+[2026-05-21 01:46:20Z INFO ConfigurationStore] stored True
+[2026-05-21 01:46:20Z INFO CredentialManager] GetCredentialProvider
+[2026-05-21 01:46:20Z INFO CredentialManager] Creating type OAuth
+[2026-05-21 01:46:20Z INFO CredentialManager] Creating credential type: OAuth
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:46:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner'
+[2026-05-21 01:46:20Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_rsaparams'
+[2026-05-21 01:46:20Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_rsaparams
+[2026-05-21 01:46:20Z INFO BrokerMessageListener] Attempt to create session.
+[2026-05-21 01:46:20Z INFO BrokerMessageListener] Connecting to the Broker Server...
+[2026-05-21 01:46:20Z INFO ConfigurationStore] HasCredentials()
+[2026-05-21 01:46:20Z INFO ConfigurationStore] stored True
+[2026-05-21 01:46:20Z INFO CredentialManager] GetCredentialProvider
+[2026-05-21 01:46:20Z INFO CredentialManager] Creating type OAuth
+[2026-05-21 01:46:20Z INFO CredentialManager] Creating credential type: OAuth
+[2026-05-21 01:46:20Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_rsaparams
+[2026-05-21 01:46:20Z INFO BrokerMessageListener] VssConnection created
+[2026-05-21 01:46:20Z INFO BrokerMessageListener] Connecting to the Runner server...
+[2026-05-21 01:46:20Z INFO RunnerServer] EstablishVssConnection
+[2026-05-21 01:46:20Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2026-05-21 01:46:20Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-05-21 01:46:20Z INFO RunnerServer] EstablishVssConnection
+[2026-05-21 01:46:20Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2026-05-21 01:46:20Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-05-21 01:46:20Z INFO RunnerServer] EstablishVssConnection
+[2026-05-21 01:46:20Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2026-05-21 01:46:20Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-05-21 01:46:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-05-21 01:46:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-05-21 01:46:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-05-21 01:46:21Z INFO BrokerMessageListener] VssConnection created
+[2026-05-21 01:46:21Z INFO Terminal] WRITE LINE: 
+[2026-05-21 01:46:21Z INFO Terminal] WRITE LINE: 
+[2026-05-21 01:46:21Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_rsaparams
+[2026-05-21 01:46:21Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_rsaparams
+[2026-05-21 01:46:22Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2026-05-21 01:46:23Z INFO BrokerMessageListener] Session created.
+[2026-05-21 01:46:23Z INFO Terminal] WRITE LINE: Current runner version: '2.334.0'
+[2026-05-21 01:46:23Z INFO Terminal] WRITE LINE: 2026-05-21 01:46:23Z: Listening for Jobs
+[2026-05-21 01:46:23Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2026-05-21 01:48:28Z INFO BrokerMessageListener] Acknowledging runner request 'bee76345-5962-51fc-b38c-4c9e7dbc4178'.
+[2026-05-21 01:48:28Z INFO ConfigurationStore] HasCredentials()
+[2026-05-21 01:48:28Z INFO ConfigurationStore] stored True
+[2026-05-21 01:48:28Z INFO CredentialManager] GetCredentialProvider
+[2026-05-21 01:48:28Z INFO CredentialManager] Creating type OAuth
+[2026-05-21 01:48:28Z INFO CredentialManager] Creating credential type: OAuth
+[2026-05-21 01:48:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_rsaparams
+[2026-05-21 01:48:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_rsaparams
+[2026-05-21 01:48:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_rsaparams
+[2026-05-21 01:48:29Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2026-05-21 01:48:30Z INFO JobDispatcher] Job request 0 for plan 72aaa196-9a54-4f32-8684-b9762f205da6 job bee76345-5962-51fc-b38c-4c9e7dbc4178 received.
+[2026-05-21 01:48:30Z INFO JobDispatcher] Pull OrchestrationId 72aaa196-9a54-4f32-8684-b9762f205da6.web-test-build-image.__default from JWT claims
+[2026-05-21 01:48:30Z INFO BrokerMessageListener] Received job status event. JobState: Busy
+[2026-05-21 01:48:30Z INFO BrokerMessageListener] _getMessagesTokenSource is already disposed.
+[2026-05-21 01:48:30Z INFO Terminal] WRITE LINE: 2026-05-21 01:48:30Z: Running job: Web Container - Test and Build
+[2026-05-21 01:48:30Z INFO JobDispatcher] Start renew job request 0 for job bee76345-5962-51fc-b38c-4c9e7dbc4178.
+[2026-05-21 01:48:31Z INFO JobDispatcher] Successfully renew job bee76345-5962-51fc-b38c-4c9e7dbc4178, job is valid till 2026/05/21 1:58:30
+[2026-05-21 01:48:31Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:48:31Z INFO ProcessInvokerWrapper] Starting process:
+[2026-05-21 01:48:31Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin\Runner.Worker.exe'
+[2026-05-21 01:48:31Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2252 2264'
+[2026-05-21 01:48:31Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:48:31Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2026-05-21 01:48:31Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2026-05-21 01:48:31Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2026-05-21 01:48:31Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-05-21 01:48:31Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2026-05-21 01:48:31Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-05-21 01:48:31Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2026-05-21 01:48:31Z INFO ProcessInvokerWrapper] Process started with process id 27572, waiting for process exit.
+[2026-05-21 01:48:31Z INFO JobDispatcher] Send job request message to worker for job bee76345-5962-51fc-b38c-4c9e7dbc4178.
+[2026-05-21 01:48:31Z INFO ProcessChannel] Sending message of length 24568, with hash 'ea7d8ee1ae922fb769597cc2fad1f4840a0c50318c229fdc36d6348fa726a30e'
+[2026-05-21 01:48:31Z INFO JobNotification] Entering JobStarted Notification
+[2026-05-21 01:48:31Z INFO JobNotification] Entering StartMonitor
+[2026-05-21 01:49:31Z INFO JobDispatcher] Successfully renew job bee76345-5962-51fc-b38c-4c9e7dbc4178, job is valid till 2026/05/21 1:59:30
+[2026-05-21 01:49:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 01:49:57Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 01:49:57Z INFO ProcessInvokerWrapper] Finished process 27572 with exit code 102, and elapsed time 00:01:26.0442412.
+[2026-05-21 01:49:57Z INFO JobDispatcher] Worker finished for job bee76345-5962-51fc-b38c-4c9e7dbc4178. Code: 102
+[2026-05-21 01:49:57Z INFO JobDispatcher] finish job request for job bee76345-5962-51fc-b38c-4c9e7dbc4178 with result: Failed
+[2026-05-21 01:49:57Z INFO Terminal] WRITE LINE: 2026-05-21 01:49:57Z: Job Web Container - Test and Build completed with result: Failed
+[2026-05-21 01:49:57Z INFO JobDispatcher] Stop renew job request for job bee76345-5962-51fc-b38c-4c9e7dbc4178.
+[2026-05-21 01:49:57Z INFO JobDispatcher] job renew has been cancelled, stop renew job bee76345-5962-51fc-b38c-4c9e7dbc4178.
+[2026-05-21 01:49:57Z INFO JobNotification] Entering JobCompleted Notification
+[2026-05-21 01:49:57Z INFO JobNotification] Entering EndMonitor
+[2026-05-21 01:49:57Z INFO BrokerMessageListener] Received job status event. JobState: Online
+[2026-05-21 01:49:57Z WARN GitHubActionsService] GET request to https://broker.actions.githubusercontent.com/message?sessionId=68d33326-180f-41c4-bade-73d5eaaddb59&status=Busy&runnerVersion=2.334.0&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2026-05-21 01:49:57Z ERR  BrokerServer] Catch exception during request
+[2026-05-21 01:49:57Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。.
+ ---> System.Net.Sockets.SocketException (995): スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpRequestMessage message, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Uri requestUri, HttpContent content, IEnumerable`1 queryParameters, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at GitHub.Actions.RunService.WebApi.BrokerHttpClient.GetRunnerMessageAsync(Nullable`1 sessionId, String runnerVersion, Nullable`1 status, String os, String architecture, Nullable`1 disableUpdate, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.BrokerServer.<>c__DisplayClass7_0.<<GetRunnerMessageAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at GitHub.Runner.Common.RunnerService.RetryRequest[T](Func`1 func, CancellationToken cancellationToken, Int32 maxAttempts, Func`2 shouldRetry)
+[2026-05-21 01:49:57Z ERR  BrokerServer] #####################################################
+[2026-05-21 01:49:57Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。.
+ ---> System.Net.Sockets.SocketException (995): スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+[2026-05-21 01:49:57Z ERR  BrokerServer] #####################################################
+[2026-05-21 01:49:57Z ERR  BrokerServer] System.IO.IOException: Unable to read data from the transport connection: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。.
+ ---> System.Net.Sockets.SocketException (995): スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2026-05-21 01:49:57Z ERR  BrokerServer] #####################################################
+[2026-05-21 01:49:57Z ERR  BrokerServer] System.Net.Sockets.SocketException (995): スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+[2026-05-21 01:49:57Z WARN BrokerServer] Back off 8.393 seconds before next retry. 4 attempt left.
+[2026-05-21 01:49:57Z INFO BrokerMessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
+[2026-05-21 01:54:59Z INFO BrokerMessageListener] Acknowledging runner request 'af6f3bfb-062a-51a2-b5f4-ef144ad25b76'.
+[2026-05-21 01:54:59Z INFO ConfigurationStore] HasCredentials()
+[2026-05-21 01:54:59Z INFO ConfigurationStore] stored True
+[2026-05-21 01:54:59Z INFO CredentialManager] GetCredentialProvider
+[2026-05-21 01:54:59Z INFO CredentialManager] Creating type OAuth
+[2026-05-21 01:54:59Z INFO CredentialManager] Creating credential type: OAuth
+[2026-05-21 01:54:59Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_rsaparams
+[2026-05-21 01:54:59Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_rsaparams
+[2026-05-21 01:54:59Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\.credentials_rsaparams
+[2026-05-21 01:55:00Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2026-05-21 01:55:01Z INFO JobDispatcher] Job request 0 for plan c46d76dc-fe9c-4970-9b25-6a826287d74a job af6f3bfb-062a-51a2-b5f4-ef144ad25b76 received.
+[2026-05-21 01:55:01Z INFO JobDispatcher] Pull OrchestrationId c46d76dc-fe9c-4970-9b25-6a826287d74a.web-test-build-image.__default from JWT claims
+[2026-05-21 01:55:01Z INFO BrokerMessageListener] Received job status event. JobState: Busy
+[2026-05-21 01:55:01Z INFO BrokerMessageListener] _getMessagesTokenSource is already disposed.
+[2026-05-21 01:55:01Z INFO JobDispatcher] Job request bee76345-5962-51fc-b38c-4c9e7dbc4178 processed succeed.
+[2026-05-21 01:55:01Z INFO Terminal] WRITE LINE: 2026-05-21 01:55:01Z: Running job: Web Container - Test and Build
+[2026-05-21 01:55:01Z INFO JobDispatcher] Start renew job request 0 for job af6f3bfb-062a-51a2-b5f4-ef144ad25b76.
+[2026-05-21 01:55:02Z INFO JobDispatcher] Successfully renew job af6f3bfb-062a-51a2-b5f4-ef144ad25b76, job is valid till 2026/05/21 2:05:01
+[2026-05-21 01:55:02Z INFO HostContext] Well known directory 'Bin': 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:55:02Z INFO ProcessInvokerWrapper] Starting process:
+[2026-05-21 01:55:02Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin\Runner.Worker.exe'
+[2026-05-21 01:55:02Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2408 2432'
+[2026-05-21 01:55:02Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\matisse\Desktop\docker-simple-cicd-demo\actions-runner\bin'
+[2026-05-21 01:55:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2026-05-21 01:55:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2026-05-21 01:55:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2026-05-21 01:55:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2026-05-21 01:55:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2026-05-21 01:55:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2026-05-21 01:55:02Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2026-05-21 01:55:02Z INFO ProcessInvokerWrapper] Process started with process id 16312, waiting for process exit.
+[2026-05-21 01:55:02Z INFO JobDispatcher] Send job request message to worker for job af6f3bfb-062a-51a2-b5f4-ef144ad25b76.
+[2026-05-21 01:55:02Z INFO ProcessChannel] Sending message of length 24567, with hash 'bae88ae006ff017409488b6e978ccb093c02fd81065f451e9f6b3ab2887b19d8'
+[2026-05-21 01:55:02Z INFO JobNotification] Entering JobStarted Notification
+[2026-05-21 01:55:02Z INFO JobNotification] Entering StartMonitor
+[2026-05-21 01:55:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 01:55:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2026-05-21 01:55:41Z INFO ProcessInvokerWrapper] Finished process 16312 with exit code 102, and elapsed time 00:00:39.5073136.
+[2026-05-21 01:55:41Z INFO JobDispatcher] Worker finished for job af6f3bfb-062a-51a2-b5f4-ef144ad25b76. Code: 102
+[2026-05-21 01:55:41Z INFO JobDispatcher] finish job request for job af6f3bfb-062a-51a2-b5f4-ef144ad25b76 with result: Failed
+[2026-05-21 01:55:41Z INFO Terminal] WRITE LINE: 2026-05-21 01:55:41Z: Job Web Container - Test and Build completed with result: Failed
+[2026-05-21 01:55:41Z INFO JobDispatcher] Stop renew job request for job af6f3bfb-062a-51a2-b5f4-ef144ad25b76.
+[2026-05-21 01:55:41Z INFO JobDispatcher] job renew has been cancelled, stop renew job af6f3bfb-062a-51a2-b5f4-ef144ad25b76.
+[2026-05-21 01:55:41Z INFO JobNotification] Entering JobCompleted Notification
+[2026-05-21 01:55:41Z INFO JobNotification] Entering EndMonitor
+[2026-05-21 01:55:41Z INFO BrokerMessageListener] Received job status event. JobState: Online
+[2026-05-21 01:55:41Z WARN GitHubActionsService] GET request to https://broker.actions.githubusercontent.com/message?sessionId=68d33326-180f-41c4-bade-73d5eaaddb59&status=Busy&runnerVersion=2.334.0&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2026-05-21 01:55:41Z ERR  BrokerServer] Catch exception during request
+[2026-05-21 01:55:41Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。.
+ ---> System.Net.Sockets.SocketException (995): スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpRequestMessage message, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Uri requestUri, HttpContent content, IEnumerable`1 queryParameters, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at GitHub.Actions.RunService.WebApi.BrokerHttpClient.GetRunnerMessageAsync(Nullable`1 sessionId, String runnerVersion, Nullable`1 status, String os, String architecture, Nullable`1 disableUpdate, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.BrokerServer.<>c__DisplayClass7_0.<<GetRunnerMessageAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at GitHub.Runner.Common.RunnerService.RetryRequest[T](Func`1 func, CancellationToken cancellationToken, Int32 maxAttempts, Func`2 shouldRetry)
+[2026-05-21 01:55:41Z ERR  BrokerServer] #####################################################
+[2026-05-21 01:55:41Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。.
+ ---> System.Net.Sockets.SocketException (995): スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+[2026-05-21 01:55:41Z ERR  BrokerServer] #####################################################
+[2026-05-21 01:55:41Z ERR  BrokerServer] System.IO.IOException: Unable to read data from the transport connection: スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。.
+ ---> System.Net.Sockets.SocketException (995): スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2026-05-21 01:55:41Z ERR  BrokerServer] #####################################################
+[2026-05-21 01:55:41Z ERR  BrokerServer] System.Net.Sockets.SocketException (995): スレッドの終了またはアプリケーションの要求によって、I/O 処理は中止されました。
+[2026-05-21 01:55:41Z WARN BrokerServer] Back off 14.391 seconds before next retry. 4 attempt left.
+[2026-05-21 01:55:41Z INFO BrokerMessageListener] Get messages has been cancelled using local token source. Continue to get messages with new status.
